@@ -31,5 +31,11 @@
 <symbol id="icon-vector-right" viewBox="0 0 17 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M1.455 30.545l14.545-14.545-14.545-14.545"></path>
 </symbol>
+<symbol id="icon-vector-down" viewBox="0 0 64 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="8" d="M4 4l28 24 28-24"></path>
+</symbol>
+<symbol id="icon-vector-up" viewBox="0 0 64 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="8" d="M60 28l-28-24-28 24"></path>
+</symbol>
 </defs>
 </svg>

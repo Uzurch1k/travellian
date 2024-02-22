@@ -6,7 +6,6 @@ body.lock {
   padding: 40px 0;
 }
 .header-body {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,8 +73,7 @@ body.lock {
 .header-burger {
   position: relative;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0;
   z-index: 5;
   width: 37px;
   height: 23px;
