@@ -45,13 +45,13 @@ body::-webkit-scrollbar-thumb {
   background-repeat: no-repeat;
 }
 
-/* @media screen and (min-device-pixel-ratio: 2),
+@media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .fullscrean {
-    background-image: url(/img/hero/hero-section-2dppx.jpg);
+    background-image: url(/img/hero/hero-section-320-2dppx.jpg);
   }
-} */
+}
 
 /*---------------------------- Adaptive tablet (768px) ----------------------------*/
 
@@ -62,6 +62,13 @@ body::-webkit-scrollbar-thumb {
   }
   .fullscrean {
     background-image: url(/img/hero/hero-section-768.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .fullscrean {
+      background-image: url(/img/hero/hero-section-768-2dppx.jpg);
+    }
   }
 }
 
@@ -75,6 +82,13 @@ body::-webkit-scrollbar-thumb {
   .fullscrean {
     background-image: url(/img/hero/hero-section-1152.jpg);
   }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .fullscrean {
+      background-image: url(/img/hero/hero-section-1152-2dppx.jpg);
+    }
+  }
 }
 
 /*---------------------------- Adaptive desktop (1440px) ----------------------------*/
@@ -86,6 +100,13 @@ body::-webkit-scrollbar-thumb {
   }
   .fullscrean {
     background-image: url(/img/hero/hero-section-1920.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .fullscrean {
+      background-image: url(/img/hero/hero-section-1920-2dppx.jpg);
+    }
   }
 }
 

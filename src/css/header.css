@@ -48,7 +48,7 @@ body.lock {
 .header-item {
 }
 .header-link {
-  font-size: 40px;
+  font-size: 35px;
 }
 .header-send {
   display: none;
@@ -118,6 +118,7 @@ body.lock {
   transform: rotate(-45deg);
   bottom: 10px;
 }
+
 /*---------------------------- Adaptive tablet (768px) ----------------------------*/
 
 @media screen and (min-width: 768px) {
