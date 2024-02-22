@@ -1,7 +1,12 @@
 /*---------------------------- Slider ----------------------------*/
 
+.slider {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .slider {
+    display: block;
   }
   .slider-container {
     position: absolute;
