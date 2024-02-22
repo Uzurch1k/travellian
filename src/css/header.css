@@ -72,7 +72,7 @@ body.lock {
 }
 
 .header-burger {
-  position: absolute;
+  position: relative;
   right: 0;
   top: 50%;
   transform: translateY(-50%);

@@ -36,7 +36,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .fullscrean {
-  background-color: rgb(5, 80, 91);
+  /* background-color: rgb(5, 80, 91); */
   min-height: 100vh;
   background-image: url(/img/hero/hero-section-320.jpg);
   background-position: 50% 0;
