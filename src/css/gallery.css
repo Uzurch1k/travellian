@@ -1,0 +1,24 @@
+/*---------------------------- Section gallery ----------------------------*/
+
+.gallery {
+}
+
+/*---------------------------- Adaptive tablet (768px) ----------------------------*/
+
+@media screen and (min-width: 768px) {
+}
+
+/*---------------------------- Adaptive desktop (1152px) ----------------------------*/
+
+@media screen and (min-width: 1152px) {
+}
+
+/*---------------------------- Adaptive desktop (1440px) ----------------------------*/
+
+@media screen and (min-width: 1440px) {
+}
+
+/*---------------------------- Adaptive desktop (1920px) ----------------------------*/
+
+@media screen and (min-width: 1920px) {
+}
