@@ -1,5 +1,7 @@
 // ==============================================================
 
+// ==============================================================
+
 const refs = {
   body: document.querySelector('body'),
   burger: document.querySelector('.header-burger'),

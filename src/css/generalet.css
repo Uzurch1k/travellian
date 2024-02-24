@@ -6,7 +6,7 @@ body {
   scroll-behavior: smooth;
   font-family: 'Rubik', sans-serif;
   color: #172432;
-  background-color: #ffffff;
+  background-color: #868f92;
   color: #fff;
   font-size: 18px;
   overflow-y: auto;
@@ -33,6 +33,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: column;
 }
+
 .fullscrean {
   min-height: 100vh;
   background-image: url(/img/hero/hero-section-320.jpg);

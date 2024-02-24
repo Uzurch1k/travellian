@@ -1,12 +1,13 @@
 /*---------------------------- Section hero ----------------------------*/
 
 .hero {
+  position: relative;
+  z-index: 2;
   padding: 100px 0;
 }
 .hero-body {
 }
 .hero-info {
-  /* margin-top: 100px; */
 }
 .hero-title {
   font-family: 'Playfair Display', sans-serif;
