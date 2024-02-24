@@ -44,6 +44,7 @@ body.lock {
   align-items: center;
   justify-content: center;
   margin-top: 150px;
+  margin-bottom: 70px;
   gap: 50px;
 }
 .header-item {
@@ -146,6 +147,7 @@ body.lock {
   .header-list {
     flex-direction: row;
     margin-top: auto;
+    margin-bottom: auto;
     gap: 32px;
   }
   .header-link {
