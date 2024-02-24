@@ -34,7 +34,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
 }
 
-.fullscrean {
+/* .fullscrean {
   min-height: 100vh;
   background-image: url(/img/hero/hero-section-320.jpg);
   background-position: 50% 0;
@@ -48,7 +48,7 @@ body::-webkit-scrollbar-thumb {
   .fullscrean {
     background-image: url(/img/hero/hero-section-320-2dppx.jpg);
   }
-}
+} */
 
 /*---------------------------- Adaptive tablet (768px) ----------------------------*/
 
@@ -56,17 +56,6 @@ body::-webkit-scrollbar-thumb {
   .container {
     max-width: 768px;
     padding: 0 20px;
-  }
-  .fullscrean {
-    position: relative;
-    background-image: url(/img/hero/hero-section-768.jpg);
-  }
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .fullscrean {
-      background-image: url(/img/hero/hero-section-768-2dppx.jpg);
-    }
   }
 }
 
@@ -77,16 +66,6 @@ body::-webkit-scrollbar-thumb {
     max-width: 1152px;
     padding: 0 36px;
   }
-  .fullscrean {
-    background-image: url(/img/hero/hero-section-1152.jpg);
-  }
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .fullscrean {
-      background-image: url(/img/hero/hero-section-1152-2dppx.jpg);
-    }
-  }
 }
 
 /*---------------------------- Adaptive desktop (1440px) ----------------------------*/
@@ -95,16 +74,6 @@ body::-webkit-scrollbar-thumb {
   .container {
     max-width: 1440px;
     padding: 0 32px;
-  }
-  .fullscrean {
-    background-image: url(/img/hero/hero-section-1920.jpg);
-  }
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .fullscrean {
-      background-image: url(/img/hero/hero-section-1920-2dppx.jpg);
-    }
   }
 }
 
