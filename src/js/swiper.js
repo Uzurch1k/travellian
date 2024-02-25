@@ -13,6 +13,7 @@ window.addEventListener('load', () => {
     direction: 'vertical',
     loop: true,
     speed: 3000,
+    effect: 'fade',
     autoplay: {
       delay: 4000,
     },
